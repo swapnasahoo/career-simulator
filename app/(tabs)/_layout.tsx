@@ -1,10 +1,8 @@
-import { Tabs } from 'expo-router'
-import React from 'react'
+import { Tabs } from "expo-router";
+import React from "react";
 
 const TabsLayout = () => {
-  return (
-    <Tabs></Tabs>
-  )
-}
+  return <Tabs screenOptions={{ headerShown: false }}></Tabs>;
+};
 
-export default TabsLayout
+export default TabsLayout;
