@@ -21,7 +21,7 @@
   --color-skill-coral: #f7956b; /* Communication / Leadership */
   --color-skill-sage: #a8c5a0; /* Academics / Learning */
 
-  /* Semantic tokens */
+  /* SEMANTIC TOKENS */
   --color-bg: var(--color-midnight-ink);
   --color-card: var(--color-surface);
   --color-text: var(--color-warm-paper);
