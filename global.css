@@ -16,10 +16,10 @@
   /* SKILL DOMAIN COLORS */
   --color-skill-blue: #5b8def; /* Programming / STEM */
   --color-skill-violet: #b97cf3; /* Music / Arts */
-  --color-skill-gold: #f4c542; /* Content Creation */
+  -color-skill-gold: var(--color-ambition-gold); /* Content Creation */
   --color-skill-teal: #3ecfb2; /* Business / Entrepreneurship */
   --color-skill-coral: #f7956b; /* Communication / Leadership */
-  --color-skill-sage: #a8c5a0; /* Academics / Learning */
+  --color-skill-sage: var(--color-sage); /* Academics / Learning */
 
   /* SEMANTIC TOKENS */
   --color-bg: var(--color-midnight-ink);
