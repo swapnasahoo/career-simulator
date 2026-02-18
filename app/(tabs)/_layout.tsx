@@ -4,7 +4,15 @@ import React from "react";
 
 const TabsLayout = () => {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarStyle: {
+          backgroundColor: "#0E0F13",
+        },
+        tabBarActiveTintColor: "#A8C5A0",
+      }}
+    >
       <Tabs.Screen
         name="SkillsScreen"
         options={{
