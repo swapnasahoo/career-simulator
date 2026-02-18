@@ -3,3 +3,27 @@
 @import "tailwindcss/utilities.css";
 
 @import "nativewind/theme";
+
+@theme {
+  /* PRIMARY PALETTE */
+  --color-midnight-ink: #0e0f13; /* Background / Base */
+  --color-sage: #a8c5a0; /* Primary Action */
+  --color-ambition-gold: #f4c542; /* XP / Rewards */
+  --color-warm-paper: #f5f2ec; /* Primary Text */
+  --color-surface: #16181f; /* Cards / Panels */
+  --color-hustle-amber: #e07b54; /* Warnings / Alerts */
+
+  /* SKILL DOMAIN COLORS */
+  --color-skill-blue: #5b8def; /* Programming / STEM */
+  --color-skill-violet: #b97cf3; /* Music / Arts */
+  -color-skill-gold: var(--color-ambition-gold); /* Content Creation */
+  --color-skill-teal: #3ecfb2; /* Business / Entrepreneurship */
+  --color-skill-coral: #f7956b; /* Communication / Leadership */
+  --color-skill-sage: var(--color-sage); /* Academics / Learning */
+
+  /* SEMANTIC TOKENS */
+  --color-bg: var(--color-midnight-ink);
+  --color-card: var(--color-surface);
+  --color-text: var(--color-warm-paper);
+  --color-primary: var(--color-sage);
+}
