@@ -35,6 +35,7 @@ const LifeScreen = () => {
             className="w-full h-12 bg-primary rounded-md items-center justify-center transition-all ease-in-out duration-300 active:opacity-80 active:scale-[0.95]"
             accessibilityRole="button"
             accessibilityLabel="Increase Age"
+            onPress={() => {}}
           >
             <Text className="text-midnight-ink font-medium">Increase Age</Text>
           </Pressable>
