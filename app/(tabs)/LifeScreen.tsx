@@ -31,7 +31,11 @@ const LifeScreen = () => {
       <SafeAreaView>
         <View className="px-6 py-4 -mt-24">
           {/* INCREASE AGE BUTTON */}
-          <Pressable className="w-full h-12 bg-primary rounded-md items-center justify-center transition-all ease-in-out duration-300 active:opacity-80 active:scale-[0.95]">
+          <Pressable
+            className="w-full h-12 bg-primary rounded-md items-center justify-center transition-all ease-in-out duration-300 active:opacity-80 active:scale-[0.95]"
+            accessibilityRole="button"
+            accessibilityLabel="Increase age"
+          >
             <Text className="text-midnight-ink font-medium">Increase Age</Text>
           </Pressable>
 
