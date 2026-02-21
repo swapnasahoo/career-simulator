@@ -12,6 +12,7 @@ const TabsLayout = () => {
         },
         tabBarActiveTintColor: "#A8C5A0",
       }}
+      initialRouteName="LifeScreen"
     >
       <Tabs.Screen
         name="SkillsScreen"
