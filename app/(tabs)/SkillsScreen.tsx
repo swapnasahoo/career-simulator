@@ -13,8 +13,32 @@ const SkillsScreen = () => {
         </Text>
 
         {/* CONTENT */}
-        <View className="mt-6">
+        <View className="mt-6 gap-6">
           <SkillCard skillName="Programming" skillLevel={1} skillIcon="code" />
+
+          <SkillCard
+            skillName="Singing"
+            skillLevel={24}
+            skillIcon="musical-note-outline"
+          />
+
+          <SkillCard
+            skillName="Painting"
+            skillLevel={50}
+            skillIcon="brush-outline"
+          />
+
+          <SkillCard
+            skillName="Story Telling"
+            skillLevel={10}
+            skillIcon="book-outline"
+          />
+
+          <SkillCard
+            skillName="Video Editing"
+            skillLevel={22}
+            skillIcon="videocam-outline"
+          />
         </View>
       </SafeAreaView>
     </View>

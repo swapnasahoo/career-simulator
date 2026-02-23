@@ -19,7 +19,13 @@ const SkillCard = ({ skillName, skillLevel, skillIcon }: SkillCardProps) => {
         <Text className="text-text">{skillName}</Text>
 
         <View className="h-2 bg-warm-paper/20 w-48 mt-2 rounded-full overflow-hidden">
-          <View className={`h-2 bg-skill-blue w-[${skillLevel}%]`} />
+          <View
+            style={{
+              height: 8,
+              backgroundColor: "#5b8def",
+              width: `${skillLevel}%`,
+            }}
+          />
         </View>
       </View>
 
