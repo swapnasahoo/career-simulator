@@ -14,30 +14,39 @@ const SkillsScreen = () => {
 
         {/* CONTENT */}
         <View className="mt-6 gap-6">
-          <SkillCard skillName="Programming" skillLevel={1} skillIcon="code" />
+          <SkillCard
+            skillName="Programming"
+            skillLevel={1}
+            skillIcon="code"
+            skillColor="#5b8def"
+          />
 
           <SkillCard
             skillName="Singing"
             skillLevel={24}
             skillIcon="musical-note-outline"
+            skillColor="#b97cf3"
           />
 
           <SkillCard
             skillName="Painting"
             skillLevel={50}
             skillIcon="brush-outline"
+            skillColor="#b97cf3"
           />
 
           <SkillCard
             skillName="Story Telling"
             skillLevel={10}
             skillIcon="book-outline"
+            skillColor="#f7956b"
           />
 
           <SkillCard
             skillName="Video Editing"
             skillLevel={22}
             skillIcon="videocam-outline"
+            skillColor="#f4c542"
           />
         </View>
       </SafeAreaView>

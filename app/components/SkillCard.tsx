@@ -6,9 +6,15 @@ type SkillCardProps = {
   skillName: string;
   skillLevel: number;
   skillIcon: ComponentProps<typeof Ionicons>["name"];
+  skillColor: string;
 };
 
-const SkillCard = ({ skillName, skillLevel, skillIcon }: SkillCardProps) => {
+const SkillCard = ({
+  skillName,
+  skillLevel,
+  skillIcon,
+  skillColor,
+}: SkillCardProps) => {
   return (
     <View className="flex-row items-center bg-card rounded-lg shadow-sm elevation-md px-6 py-4 transition-all duration-300 ease-in-out active:scale-[0.95] active:opacity-85">
       <View className="bg-warm-paper/20 p-1.5 rounded-sm">
@@ -22,7 +28,7 @@ const SkillCard = ({ skillName, skillLevel, skillIcon }: SkillCardProps) => {
           <View
             style={{
               height: 8,
-              backgroundColor: "#5b8def",
+              backgroundColor: skillColor,
               width: `${skillLevel}%`,
             }}
           />
